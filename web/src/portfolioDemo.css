@@ -1,0 +1,9 @@
+html,body,#root{margin:0;min-height:100%;font-family:"Segoe UI","Yu Gothic UI",sans-serif}
+*{box-sizing:border-box}
+.demo-banner{padding:14px 24px;background:#123e35;color:#f2fff8;display:grid;gap:5px;min-height:112px}
+.demo-banner strong{font-size:14px;letter-spacing:1px;color:#bdf3d5}
+.demo-banner span{font-size:13px;line-height:1.6}
+.demo-banner small{font-size:12px;line-height:1.5;color:#d0e9df}
+.portfolio-demo .p2-app.sf-app{height:calc(100dvh - 112px)}
+@media(max-width:1000px){.demo-banner{min-height:140px;padding:12px 18px}.portfolio-demo .p2-app.sf-app{height:calc(100dvh - 140px)}}
+@media(max-width:480px){.demo-banner{min-height:180px}.portfolio-demo .p2-app.sf-app{height:calc(100dvh - 180px)}.demo-banner strong{font-size:12px}}

@@ -1,0 +1,62 @@
+{
+  "execution": "OFFLINE_MOCK",
+  "envelope": {
+    "receipt": {
+      "receipt_id": "f3ac71b2-328c-4859-98d2-1692fde951ee",
+      "received_at": "2026-10-31T21:49:40.158372+00:00",
+      "entity_byte_count": 556,
+      "state": "SESSION_READY",
+      "reason": null,
+      "fidelity": "EXACT_ENTITY_BODY",
+      "payload_sha256": "8afce80ef9fe4883a1002c7dc2b0ec6efaabad9d1071bc31b7c276176babdda1",
+      "provider_id": "tavily",
+      "api_profile": "basic-search",
+      "artifact_kind": "PROVIDER_SEARCH_RESULTS"
+    },
+    "policy": {
+      "synthetic_test": true,
+      "transient_display": "ALLOW",
+      "persistent_storage": "UNKNOWN",
+      "redisplay": "UNKNOWN",
+      "analysis": "UNKNOWN",
+      "export": "UNKNOWN",
+      "external_ai": "UNKNOWN"
+    },
+    "schema_version": "search-fabric-native/1",
+    "lifetime": "EPHEMERAL"
+  },
+  "payload_encoding": "base64",
+  "payload_base64": "ewogICJyZXN1bHRzIjogWwogICAgewogICAgICAidGl0bGUiOiAi5YWs6ZaL44OJ44Kt44Ol44Oh44Oz44OI44Gu5pu05paw5qGI5YaF77yI5ZCI5oiQ77yJIiwKICAgICAgInVybCI6ICJodHRwczovL2V4YW1wbGUub3JnL3NoYXJlZCIsCiAgICAgICJjb250ZW50IjogIuOBk+OCjOOBr1Ay6KGo56S656K66KqN55So44Gu5ZCI5oiQ6LOH5paZ44Gn44GZ44CC5pu05paw5pel44KE5o+Q5L6b5p2h5Lu244Gv5pyq56K66KqN44Gn44GZ44CCIiwKICAgICAgInNjb3JlIjogMC45MQogICAgfSwKICAgIHsKICAgICAgInRpdGxlIjogIuODquODquODvOOCueODjuODvOODiO+8iOWQiOaIkO+8iSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9leGFtcGxlLm9yZy9yZWxlYXNlIiwKICAgICAgImNvbnRlbnQiOiAi5Y+W5b6X6aCGMueVquOBruWQiOaIkOiomOmMsuOBp+OBmeOAgueLrOeri+OBl+OBn+S6i+Wun+aknOiovOOBr+ihjOOBo+OBpuOBhOOBvuOBm+OCk+OAgiIsCiAgICAgICJzY29yZSI6IDAuNDIKICAgIH0KICBdLAogICJ1c2FnZSI6IHsKICAgICJjcmVkaXRzIjogMQogIH0KfQ==",
+  "projection": [
+    {
+      "result_id": "93001b53-17db-437e-a4ab-29cdd81aec79",
+      "title": "公開ドキュメントの更新案内（合成）",
+      "url": "https://example.org/shared",
+      "normalized_url": "https://example.org/shared",
+      "snippet": "これはP2表示確認用の合成資料です。更新日や提供条件は未確認です。",
+      "published_at": null,
+      "provider_refs": [
+        "tavily"
+      ],
+      "citations": [
+        "https://example.org/shared"
+      ],
+      "metadata": {}
+    },
+    {
+      "result_id": "4236a216-45a2-4963-ad86-6492ec324cc7",
+      "title": "リリースノート（合成）",
+      "url": "https://example.org/release",
+      "normalized_url": "https://example.org/release",
+      "snippet": "取得順2番の合成記録です。独立した事実検証は行っていません。",
+      "published_at": null,
+      "provider_refs": [
+        "tavily"
+      ],
+      "citations": [
+        "https://example.org/release"
+      ],
+      "metadata": {}
+    }
+  ]
+}
